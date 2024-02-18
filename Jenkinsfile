@@ -1,8 +1,8 @@
 node {
     stage("clone") {
-        git branch: 'main', url: 'https://github.com/Rani-Nabwani/2412-first-repo.git'
+        git branch: 'main', url: 'https://github.com/avielb/DevOps24121.git'
     }
     stage("show files"){
-        sh "ls -l"
-    }
+        sh "ls -l"
+    }
 }
